@@ -1,0 +1,1356 @@
+!SESSION 2024-01-23 12:16:18.741 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_392-392
+java.vendor=OpenLogic-OpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jpt.jpa.annotate 4 0 2024-01-23 12:16:21.159
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jpt.jpa.annotate [424]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.db
+    -> Bundle-SymbolicName: org.eclipse.jpt.jpa.db; bundle-version="2.2.100.v201311150251"; singleton:="true"
+       org.eclipse.jpt.jpa.db [427]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.editor.core [1267]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.result [1270]
+                       Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jpt.jpa.core 4 0 2024-01-23 12:16:21.162
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jpt.jpa.core [426]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.db; bundle-version="[2.0.0,3.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jpt.jpa.db; bundle-version="2.2.100.v201311150251"; singleton:="true"
+       org.eclipse.jpt.jpa.db [427]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.editor.core [1267]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.result [1270]
+                       Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jpt.jpa.db 4 0 2024-01-23 12:16:21.170
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jpt.jpa.db [427]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core; bundle-version="[1.0.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.editor.core [1267]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.result [1270]
+                Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jpt.jpa.db.ui 4 0 2024-01-23 12:16:21.174
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jpt.jpa.db.ui [428]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.db; bundle-version="[2.0.0,3.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jpt.jpa.db; bundle-version="2.2.100.v201311150251"; singleton:="true"
+       org.eclipse.jpt.jpa.db [427]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.editor.core [1267]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.result [1270]
+                       Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jpt.jpa.eclipselink.core 4 0 2024-01-23 12:16:21.181
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jpt.jpa.eclipselink.core [430]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.core; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jpt.jpa.core; bundle-version="3.4.0.v201312052110"; singleton:="true"
+       org.eclipse.jpt.jpa.core [426]
+         Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.db; bundle-version="[2.0.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jpt.jpa.db; bundle-version="2.2.100.v201311150251"; singleton:="true"
+              org.eclipse.jpt.jpa.db [427]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core; bundle-version="[1.0.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.editor.core [1267]
+                       Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                         -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                            org.eclipse.datatools.sqltools.result [1270]
+                              Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jpt.jpa.eclipselink.core.ddlgen 4 0 2024-01-23 12:16:21.188
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jpt.jpa.eclipselink.core.ddlgen [431]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.eclipselink.core; bundle-version="[2.0.0,3.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jpt.jpa.eclipselink.core; bundle-version="2.4.0.v201309122001"; singleton:="true"
+       org.eclipse.jpt.jpa.eclipselink.core [430]
+         Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.core; bundle-version="[3.0.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jpt.jpa.core; bundle-version="3.4.0.v201312052110"; singleton:="true"
+              org.eclipse.jpt.jpa.core [426]
+                Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.db; bundle-version="[2.0.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jpt.jpa.db; bundle-version="2.2.100.v201311150251"; singleton:="true"
+                     org.eclipse.jpt.jpa.db [427]
+                       Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core; bundle-version="[1.0.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+                            org.eclipse.datatools.sqltools.editor.core [1267]
+                              Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                                -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                                   org.eclipse.datatools.sqltools.result [1270]
+                                     Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jpt.jpa.eclipselink.ui 4 0 2024-01-23 12:16:21.195
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jpt.jpa.eclipselink.ui [432]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.core; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jpt.jpa.core; bundle-version="3.4.0.v201312052110"; singleton:="true"
+       org.eclipse.jpt.jpa.core [426]
+         Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.db; bundle-version="[2.0.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jpt.jpa.db; bundle-version="2.2.100.v201311150251"; singleton:="true"
+              org.eclipse.jpt.jpa.db [427]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core; bundle-version="[1.0.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.editor.core [1267]
+                       Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                         -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                            org.eclipse.datatools.sqltools.result [1270]
+                              Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jpt.jpa.ui 4 0 2024-01-23 12:16:21.202
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jpt.jpa.ui [434]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.core; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jpt.jpa.core; bundle-version="3.4.0.v201312052110"; singleton:="true"
+       org.eclipse.jpt.jpa.core [426]
+         Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.db; bundle-version="[2.0.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jpt.jpa.db; bundle-version="2.2.100.v201311150251"; singleton:="true"
+              org.eclipse.jpt.jpa.db [427]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core; bundle-version="[1.0.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.editor.core [1267]
+                       Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                         -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                            org.eclipse.datatools.sqltools.result [1270]
+                              Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jpt.jpa.gen 4 0 2024-01-23 12:16:21.564
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jpt.jpa.gen [1007]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.db; bundle-version="[2.0.0,3.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jpt.jpa.db; bundle-version="2.2.100.v201311150251"; singleton:="true"
+       org.eclipse.jpt.jpa.db [427]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.editor.core [1267]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.result [1270]
+                       Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.m2e.wtp.jpa 4 0 2024-01-23 12:16:21.577
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.m2e.wtp.jpa [1038]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.core; bundle-version="3.3.0"
+    -> Bundle-SymbolicName: org.eclipse.jpt.jpa.core; bundle-version="3.4.0.v201312052110"; singleton:="true"
+       org.eclipse.jpt.jpa.core [426]
+         Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.db; bundle-version="[2.0.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jpt.jpa.db; bundle-version="2.2.100.v201311150251"; singleton:="true"
+              org.eclipse.jpt.jpa.db [427]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core; bundle-version="[1.0.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.editor.core [1267]
+                       Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                         -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                            org.eclipse.datatools.sqltools.result [1270]
+                              Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.db.derby 4 0 2024-01-23 12:16:21.615
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.db.derby [1260]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.editor.core [1267]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.result [1270]
+                Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.db.derby.ui 4 0 2024-01-23 12:16:21.616
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.db.derby.ui [1261]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.db.derby
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.db.derby; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.db.derby [1260]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.editor.core [1267]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.result [1270]
+                       Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.db.generic 4 0 2024-01-23 12:16:21.617
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.db.generic [1262]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.editor.core [1267]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.result [1270]
+                Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.db.generic.ui 4 0 2024-01-23 12:16:21.618
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.db.generic.ui [1263]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core.ui
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core.ui; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.editor.core.ui [1268]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.editor.core [1267]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.result [1270]
+                       Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.ddlgen.ui 4 0 2024-01-23 12:16:21.619
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.ddlgen.ui [1264]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.editor.core [1267]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.result [1270]
+                Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.debugger.core 4 0 2024-01-23 12:16:21.620
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.debugger.core [1265]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.editor.core [1267]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.result [1270]
+                Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.debugger.core.ui 4 0 2024-01-23 12:16:21.625
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.debugger.core.ui [1266]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.debugger.core
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.debugger.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.debugger.core [1265]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.editor.core [1267]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.result [1270]
+                       Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.editor.core 4 0 2024-01-23 12:16:21.630
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.editor.core [1267]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.result [1270]
+         Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.editor.core.ui 4 0 2024-01-23 12:16:21.635
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.editor.core.ui [1268]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.editor.core [1267]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.result [1270]
+                Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.result 4 0 2024-01-23 12:16:21.639
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.result [1270]
+  Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.result.ui 4 0 2024-01-23 12:16:21.643
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.result.ui [1271]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.result [1270]
+         Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.routineeditor 4 0 2024-01-23 12:16:21.648
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.routineeditor [1272]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.editor.core [1267]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.result [1270]
+                Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.routineeditor.ui 4 0 2024-01-23 12:16:21.659
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.routineeditor.ui [1273]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core.ui
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core.ui; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.editor.core.ui [1268]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.editor.core [1267]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.result [1270]
+                       Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.sqleditor 4 0 2024-01-23 12:16:21.663
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.sqleditor [1276]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.editor.core [1267]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.result [1270]
+                Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.sqlscrapbook 4 0 2024-01-23 12:16:21.670
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.sqlscrapbook [1277]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.sqleditor
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.sqleditor; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.sqleditor [1276]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.editor.core [1267]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.result [1270]
+                       Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-01-23 12:17:12.985
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Manish'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 12:21:43.145
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 12:21:43.157
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:33:34.408
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:33:34.412
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:33:36.876
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:33:36.882
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:36:44.192
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:36:44.198
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:36:46.316
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:36:46.320
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:37:39.306
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:37:39.310
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:37:58.474
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:37:58.478
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:42:15.278
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:42:15.281
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:42:27.655
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:42:27.658
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:43:18.911
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:43:18.916
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:43:31.851
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:43:31.854
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:49:51.770
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:49:51.778
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:50:56.661
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:50:56.666
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:50:57.724
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:50:57.727
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:54:33.965
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:54:33.968
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:56:05.482
+!MESSAGE Failed to download org.eclipse.recommenders:index::zip:0.0.0
+!STACK 0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/mars/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294)
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:192)
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:174)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:165)
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/mars/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:39)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:355)
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:67)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:581)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:249)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421)
+	... 8 more
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2024-01-23 13:56:05.483
+!MESSAGE org.eclipse.recommenders:index::zip:0.0.0 could not be resolved from the model repositories. Are you offline?
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:56:27.918
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:56:27.921
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:57:22.293
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:57:22.296
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:59:11.758
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:59:11.760
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:59:32.122
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 13:59:32.124
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 14:02:03.034
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 14:02:03.037
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 14:02:08.948
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 14:02:08.953
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 14:02:13.947
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 14:02:13.949
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 14:32:29.424
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 14:32:29.427
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 14:33:08.658
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 14:33:08.662
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 14:33:51.399
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 14:33:51.402
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 14:39:12.039
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-01-23 14:39:12.043
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2024-01-23 14:43:48.593 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_392-392
+java.vendor=OpenLogic-OpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jpt.jpa.annotate 4 0 2024-01-23 14:43:50.970
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jpt.jpa.annotate [424]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.db
+    -> Bundle-SymbolicName: org.eclipse.jpt.jpa.db; bundle-version="2.2.100.v201311150251"; singleton:="true"
+       org.eclipse.jpt.jpa.db [427]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.editor.core [1267]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.result [1270]
+                       Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jpt.jpa.core 4 0 2024-01-23 14:43:50.975
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jpt.jpa.core [426]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.db; bundle-version="[2.0.0,3.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jpt.jpa.db; bundle-version="2.2.100.v201311150251"; singleton:="true"
+       org.eclipse.jpt.jpa.db [427]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.editor.core [1267]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.result [1270]
+                       Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jpt.jpa.db 4 0 2024-01-23 14:43:50.980
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jpt.jpa.db [427]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core; bundle-version="[1.0.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.editor.core [1267]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.result [1270]
+                Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jpt.jpa.db.ui 4 0 2024-01-23 14:43:50.986
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jpt.jpa.db.ui [428]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.db; bundle-version="[2.0.0,3.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jpt.jpa.db; bundle-version="2.2.100.v201311150251"; singleton:="true"
+       org.eclipse.jpt.jpa.db [427]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.editor.core [1267]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.result [1270]
+                       Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jpt.jpa.eclipselink.core 4 0 2024-01-23 14:43:50.992
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jpt.jpa.eclipselink.core [430]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.core; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jpt.jpa.core; bundle-version="3.4.0.v201312052110"; singleton:="true"
+       org.eclipse.jpt.jpa.core [426]
+         Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.db; bundle-version="[2.0.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jpt.jpa.db; bundle-version="2.2.100.v201311150251"; singleton:="true"
+              org.eclipse.jpt.jpa.db [427]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core; bundle-version="[1.0.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.editor.core [1267]
+                       Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                         -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                            org.eclipse.datatools.sqltools.result [1270]
+                              Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jpt.jpa.eclipselink.core.ddlgen 4 0 2024-01-23 14:43:50.997
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jpt.jpa.eclipselink.core.ddlgen [431]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.eclipselink.core; bundle-version="[2.0.0,3.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jpt.jpa.eclipselink.core; bundle-version="2.4.0.v201309122001"; singleton:="true"
+       org.eclipse.jpt.jpa.eclipselink.core [430]
+         Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.core; bundle-version="[3.0.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jpt.jpa.core; bundle-version="3.4.0.v201312052110"; singleton:="true"
+              org.eclipse.jpt.jpa.core [426]
+                Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.db; bundle-version="[2.0.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jpt.jpa.db; bundle-version="2.2.100.v201311150251"; singleton:="true"
+                     org.eclipse.jpt.jpa.db [427]
+                       Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core; bundle-version="[1.0.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+                            org.eclipse.datatools.sqltools.editor.core [1267]
+                              Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                                -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                                   org.eclipse.datatools.sqltools.result [1270]
+                                     Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jpt.jpa.eclipselink.ui 4 0 2024-01-23 14:43:51.003
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jpt.jpa.eclipselink.ui [432]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.core; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jpt.jpa.core; bundle-version="3.4.0.v201312052110"; singleton:="true"
+       org.eclipse.jpt.jpa.core [426]
+         Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.db; bundle-version="[2.0.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jpt.jpa.db; bundle-version="2.2.100.v201311150251"; singleton:="true"
+              org.eclipse.jpt.jpa.db [427]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core; bundle-version="[1.0.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.editor.core [1267]
+                       Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                         -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                            org.eclipse.datatools.sqltools.result [1270]
+                              Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jpt.jpa.ui 4 0 2024-01-23 14:43:51.009
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jpt.jpa.ui [434]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.core; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jpt.jpa.core; bundle-version="3.4.0.v201312052110"; singleton:="true"
+       org.eclipse.jpt.jpa.core [426]
+         Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.db; bundle-version="[2.0.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jpt.jpa.db; bundle-version="2.2.100.v201311150251"; singleton:="true"
+              org.eclipse.jpt.jpa.db [427]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core; bundle-version="[1.0.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.editor.core [1267]
+                       Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                         -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                            org.eclipse.datatools.sqltools.result [1270]
+                              Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jpt.jpa.gen 4 0 2024-01-23 14:43:51.513
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jpt.jpa.gen [1007]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.db; bundle-version="[2.0.0,3.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jpt.jpa.db; bundle-version="2.2.100.v201311150251"; singleton:="true"
+       org.eclipse.jpt.jpa.db [427]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.editor.core [1267]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.result [1270]
+                       Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.m2e.wtp.jpa 4 0 2024-01-23 14:43:51.521
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.m2e.wtp.jpa [1038]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.core; bundle-version="3.3.0"
+    -> Bundle-SymbolicName: org.eclipse.jpt.jpa.core; bundle-version="3.4.0.v201312052110"; singleton:="true"
+       org.eclipse.jpt.jpa.core [426]
+         Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.db; bundle-version="[2.0.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jpt.jpa.db; bundle-version="2.2.100.v201311150251"; singleton:="true"
+              org.eclipse.jpt.jpa.db [427]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core; bundle-version="[1.0.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.editor.core [1267]
+                       Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                         -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                            org.eclipse.datatools.sqltools.result [1270]
+                              Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.db.derby 4 0 2024-01-23 14:43:51.537
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.db.derby [1260]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.editor.core [1267]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.result [1270]
+                Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.db.derby.ui 4 0 2024-01-23 14:43:51.542
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.db.derby.ui [1261]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.db.derby
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.db.derby; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.db.derby [1260]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.editor.core [1267]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.result [1270]
+                       Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.db.generic 4 0 2024-01-23 14:43:51.547
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.db.generic [1262]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.editor.core [1267]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.result [1270]
+                Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.db.generic.ui 4 0 2024-01-23 14:43:51.553
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.db.generic.ui [1263]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core.ui
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core.ui; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.editor.core.ui [1268]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.editor.core [1267]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.result [1270]
+                       Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.ddlgen.ui 4 0 2024-01-23 14:43:51.556
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.ddlgen.ui [1264]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.editor.core [1267]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.result [1270]
+                Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.debugger.core 4 0 2024-01-23 14:43:51.561
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.debugger.core [1265]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.editor.core [1267]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.result [1270]
+                Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.debugger.core.ui 4 0 2024-01-23 14:43:51.566
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.debugger.core.ui [1266]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.debugger.core
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.debugger.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.debugger.core [1265]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.editor.core [1267]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.result [1270]
+                       Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.editor.core 4 0 2024-01-23 14:43:51.571
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.editor.core [1267]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.result [1270]
+         Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.editor.core.ui 4 0 2024-01-23 14:43:51.575
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.editor.core.ui [1268]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.editor.core [1267]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.result [1270]
+                Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.result 4 0 2024-01-23 14:43:51.579
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.result [1270]
+  Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.result.ui 4 0 2024-01-23 14:43:51.582
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.result.ui [1271]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.result [1270]
+         Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.routineeditor 4 0 2024-01-23 14:43:51.587
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.routineeditor [1272]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.editor.core [1267]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.result [1270]
+                Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.routineeditor.ui 4 0 2024-01-23 14:43:51.592
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.routineeditor.ui [1273]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core.ui
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core.ui; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.editor.core.ui [1268]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.editor.core [1267]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.result [1270]
+                       Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.sqleditor 4 0 2024-01-23 14:43:51.597
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.sqleditor [1276]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.editor.core [1267]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.result [1270]
+                Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.sqltools.sqlscrapbook 4 0 2024-01-23 14:43:51.603
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.sqltools.sqlscrapbook [1277]
+  Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.sqleditor
+    -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.sqleditor; bundle-version="1.3.0.202311071249"; singleton:="true"
+       org.eclipse.datatools.sqltools.sqleditor [1276]
+         Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.editor.core
+           -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.editor.core; bundle-version="1.3.0.202311071249"; singleton:="true"
+              org.eclipse.datatools.sqltools.editor.core [1267]
+                Unresolved requirement: Require-Bundle: org.eclipse.datatools.sqltools.result
+                  -> Bundle-SymbolicName: org.eclipse.datatools.sqltools.result; bundle-version="1.4.0.202311071249"; singleton:="true"
+                     org.eclipse.datatools.sqltools.result [1270]
+                       Unresolved requirement: Require-Bundle: org.apache.lucene.analysis-common; bundle-version="[9.5.0,10.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-01-23 14:44:14.982
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Manish'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
